@@ -1,3 +1,29 @@
 #Book:
 #http://cran.r-project.org/web/packages/IPSUR/vignettes/IPSUR.pdf
 ?<function name> #Provides help
+
+10 R packages I wish I knew about earlier
+http://blog.yhathq.com/posts/10-R-packages-I-wish-I-knew-about-earlier.html
+
+
+#Get help (inline)
+## Available packages, loaded packages, load package
+library() 
+search()
+library(sp)
+
+## Get main help page for package
+help(package = "sp")
+
+## Get description file
+packageDescription("sp") # Short description
+library(help=sp)
+
+## List functions
+ls("package:sp")
+
+## List functions with parameters
+lsf.str("package:sp")
+
+## Function and parameters
+str(read.csv)
