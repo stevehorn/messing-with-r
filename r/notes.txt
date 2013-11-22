@@ -1,0 +1,3 @@
+#Book:
+#http://cran.r-project.org/web/packages/IPSUR/vignettes/IPSUR.pdf
+?<function name> #Provides help

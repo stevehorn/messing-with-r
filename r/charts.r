@@ -6,4 +6,6 @@ stripchart(rivers, method = "jitter", xlab = "length")
 stripchart(discoveries, method = "stack", xlab = "number")
 hist(precip, main = "")
 
+plot(LakeHuron, type = "h")
+plot(LakeHuron, type = "p")
 
